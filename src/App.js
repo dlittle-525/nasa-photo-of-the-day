@@ -13,7 +13,7 @@ const future = {
 }
 useEffect(() => {
   axios
-  .get('https://api.nasa.gov/planetary/apod?api_key=w44QUG2ECbsfHOtpLlFGuMF5GYogIeRbyiGVewze&date=2012-03-14')
+  .get('https://api.nasa.gov/planetary/apod?api_key=w44QUG2ECbsfHOtpLlFGuMF5GYogIeRbyiGVewze&date=2020-04-16')
   .then(response => { setImage(response.data);
   });
 }, [])
